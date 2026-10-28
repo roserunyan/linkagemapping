@@ -1,4 +1,4 @@
-#' Cross object for N2xCX11314 RILS
+#' Cross object for N2xCX11314 RILs
 #'
 #' In this object, N2 genotypes are encoded as 1 and CX11314 genotypes are
 #' encoded as 2. This cross object contains no heterozyous loci. When the

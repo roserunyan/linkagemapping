@@ -1,3 +1,19 @@
+#' Cross object for N2xCX11314 RILS
+#'
+#' In this object, N2 genotypes are encoded as 1 and CX11314 genotypes are
+#' encoded as 2. This cross object contains no heterozyous loci. When the
+#' extract genotype function is run on this cross object, N2 genotypes are
+#' converted to -1 and CX11314 genotypes to 1. For mappings with this cross
+#' object, negative effect sizes indicate that N2 had the greater phenotype
+#' value while postive effect sizes indicate that CX11314 had a greater phenotype
+#' value.
+#'
+#' @name N2xCX11314cross
+#' @format A cross object made with the \code{qtl} package, with genotype and
+#' phenotype subobjects.
+NULL
+
+
 #' Cross object for N2xCB4856 RIAILs
 #'
 #' In this object, N2 genotypes are encoded as 1 and CB4856 genotypes are

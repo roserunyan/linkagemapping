@@ -350,7 +350,7 @@ pxgplot_par <- function(cross, map, phenoframe, parent="N2xCB4856", tsize = 20) 
                                                      ifelse(geno[j,i] == 1, "HK104", NA)),
                                               ifelse(parent == "N2xCX11314",
                                                      ifelse(geno[j,i] == -1, "N2",
-                                                            ifelse(geno[j,i] == 1, "CX11314", NA)))))
+                                                            ifelse(geno[j,i] == 1, "CX11314", NA))))))
         }
     }
     
